@@ -19,13 +19,14 @@ A description of the analysis step of *Sorghum bicolor* variant calling pipeline
 [Phytozome Sorghum bicolor Rio v2.1](https://phytozome-next.jgi.doe.gov/info/SbicolorRio_v2_1)
 **Reference genome **
 SbicolorRio_468_v2.0.fa
-
+*****
 #### Mapping to the reference genome
 1. Trimmomatic
 2. Making index of the genome
 3. Alignment of Illumina reads to the reference genome
 4. Make clean BAM
 5. Remove PCR duplicates
+```
 $ java -jar picard.jar MarkDuplicates \
     INPUT=alignment.merge.bam \
     OUTPUT=alignment.rmdup.bam \
@@ -33,7 +34,8 @@ $ java -jar picard.jar MarkDuplicates \
     REMOVE_DUPLICATES=true \
     MAX_RECORDS_IN_RAM=1000000 \
     TMP_DIR=./tmp
-$ samtools index alignment.rmdup.bam’
+$ samtools index alignment.rmdup.bam
+```
 
 
 
