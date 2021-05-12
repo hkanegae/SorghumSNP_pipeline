@@ -10,14 +10,16 @@ A description of the analysis step of *Sorghum bicolor* variant calling pipeline
 
 #### Sorghum bicolor v3.1.1
 [Phytozome Sorghum bicolor v3.1.1](https://phytozome-next.jgi.doe.gov/info/Sbicolor_v3_1_1)
-**Reference genome **
-- Sbicolor_454_v3.0.1_M_C.fa = Sbicolor_ (454_v3.0.1 + EF115542.1 + NC_008360.1
+
+__Reference genome__
+- Sbicolor_454_v3.0.1_M_C.fa = Sbicolor_454_v3.0.1 + EF115542.1 + NC_008360.1
 - EF115542.1 Sorghum bicolor cultivar BTx623 chloroplast, complete genome
 - NC_008360.1 Sorghum bicolor mitochondrion, complete genome
 
 #### Sorghum bicolor Rio v2.1
 [Phytozome Sorghum bicolor Rio v2.1](https://phytozome-next.jgi.doe.gov/info/SbicolorRio_v2_1)
-**Reference genome **
+
+__Reference genome__
 SbicolorRio_468_v2.0.fa
 *****
 #### Mapping to the reference genome
